@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+:root {
+  font-size: 62.5%;
+}
+
+.hide {
+  display: none;
+}
+
+body {
+  background: rgb(186, 185, 185);
+  font-family: 'Roboto', sans-serif;
+  color: #FFFFFF;
+  position: relative;
+  
+}
+
+nav {
+  margin-left: 7.2rem;
+  display: flex;
+  align-items: center;
+  gap: 6rem;
+  padding-top: 4rem;
+}
+
+.imgHome, .imgUniverse, .imgExplore {
+  position: absolute;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+}
+
+.active {
+  font-weight: bold;
+  font-size: 3.2rem;
+}
+
+a,
+svg {
+    color: #FFFFFF;
+    gap: 3.2rem;
+
+    text-decoration: none;
+    margin: 0 3.2rem 0 0;
+}
+
+a {
+    font-size: 2.1rem;
+}
+
+a:hover {
+    font-size: 2.4rem;
+    font-weight: bold;
+    transition: 200ms;
+}
+
+#home {
+  width: 40rem;
+  margin: 20rem auto;
+  
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+#home h1 {
+  font-size: 4.8rem;
+  margin-bottom: 2.4rem;
+  
+}
+
+#home button {
+  font-size: 1.6rem;
+  border: .2rem solid #FFFFFF;
+  border-radius: .5rem;
+  padding: 1.2rem 3.2rem;
+
+  background: none;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+#home button:hover {
+  background: #FFFFFF;
+  color: #02799D;
+
+}
+
+#universe, #exploration {
+  width: 64.8rem;
+  margin: 6.3rem 0 0 10.2rem;
+}
+
+#universe h1, #exploration h1 {
+  font-size: 4.8rem;
+  margin-bottom: 1.6rem;
+  
+}
+
+#universe p, #exploration p {
+  font-size: 1.8rem;
+  line-height: 160%;
+}
+
